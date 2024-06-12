@@ -259,12 +259,12 @@ class _TableCalendarBaseState extends State<TableCalendarBase> {
                 ),
                 Container(
                   decoration: BoxDecoration(
-                    color: Color(0xFFE3E4E6),
-                    borderRadius: BorderRadius.circular(8),
+                    color: Color(0xFFD4D4D4).withOpacity(0.5),
+                    borderRadius: BorderRadius.circular(2),
                   ),
-                  width: 46,
-                  height: 6,
-                  margin: EdgeInsets.only(bottom: 12),
+                  width: 40,
+                  height: 4,
+                  margin: EdgeInsets.only(top: 6, bottom: 8),
                 ),
               ],
             ),
